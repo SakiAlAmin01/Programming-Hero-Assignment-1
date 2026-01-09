@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.font_inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+
+/* Nav Bar Design*/
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 16px 120px;
+}
+.nav_ul {
+  list-style-type: none;
+  gap: 32;
+  width: 365px;
+  height: 24px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 32;
+  font-size: 16px;
+  font-style: Medium;
+  font-weight: 500;
+  letter-spacing: 0%;
+}
+.logo {
+  height: 60px;
+  width: 139px;
+}
+
+.nav_btn {
+  width: 164px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10;
+  padding: 12px 16px;
+  background-color: #30b868;
+  border: none;
+  color: white;
+  font-style: Semi Bold;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: capitalize;
+  text-align: left;
+  border-radius: 4px;
+}
